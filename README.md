@@ -5,8 +5,10 @@ This small dataset has around 13000 short audio clips and the corresponding tran
 The challenge proposed to implement the forward pass of different decoder implementations and compare their performance,
 two different encoder-decoder architectures to solve this problem:
   1. The decoder employs a recurrent-based approach to process the input
+     
      class TextDecoderRecurrent(torch.nn.Module)
   3. The decoder employs an attention-based mechanism to process the input
+     
      class TextDecoderTransformer(torch.nn.Module)
 
 The encoder’s architecture is based on the Transformer, comprising an embedding mechanism followed by a stack of N_enc = 4 identical blocks.
