@@ -8,3 +8,5 @@ two different encoder-decoder architectures to solve this problem:
   2. The decoder employs an attention-based mechanism to process the input
 
 The encoder’s architecture is based on the Transformer, comprising an embedding mechanism followed by a stack of N_enc = 4 identical blocks.
+
+<img width="543" alt="image" src="https://github.com/tomerkl22/Automatic-Speech-Recognition/assets/94317058/cdf91d72-b24f-4414-aa43-9570fee17a74">
